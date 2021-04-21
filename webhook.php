@@ -10,4 +10,4 @@ $logger = new Logger('app');
 $logger->pushHandler(new StreamHandler(__DIR__.'/app.log', Logger::DEBUG));
 $logger->pushHandler(new FirePHPHandler());
 
-$logger->info($_POST);
+$logger->info(serialize($_POST));
