@@ -1,4 +1,10 @@
 <?php
-$output = shell_exec('cd t_bot/; git status');
-echo "<pre>$output</pre>";
-?>
+
+require("vendor/autoload.php");
+
+use Monolog\Logger;
+use Monolog\Registry;
+
+
+$logger = Registry::getInstance('app');
+$logger->info('$_POST', $_POST);

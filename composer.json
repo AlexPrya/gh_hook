@@ -1,0 +1,15 @@
+{
+  "name": "AlexPrya/gh_hook",
+  "description": "description",
+  "minimum-stability": "stable",
+  "license": "proprietary",
+  "authors": [
+    {
+      "name": "AlexPrya",
+      "email": "pruashnikov@gmail.com"
+    }
+  ],
+  "require": {
+    "monolog/monolog": "2.*"
+  }
+}
